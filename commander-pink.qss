@@ -1,0 +1,330 @@
+QDialog {
+    background: #f8c8d8; /* light pink */
+    color: black;
+}
+
+QWidget {
+    background-color: #f8c8d8;
+    color: black;
+    selection-background-color: #f09bb3; /* medium pink */
+    font-size: 9pt;
+}
+
+QHeaderView::section {
+    padding:5px;
+    color: black;
+    background: #f1b6c7; /* soft pink */
+    font-size: 9pt;
+}
+
+QTabWidget {
+    background-color: #f1b6c7;
+    color: black;
+    selection-background-color: #f09bb3; /* medium pink */
+    font-size: 9pt;
+}
+
+QTabWidget:disabled {
+    background-color: grey;
+    color: grey;
+}
+
+QTabBar:tab {
+    background: #f09bb3;
+    color: black;
+    border: 1px solid #aa728a; /* dark pink */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+QTabBar:tab:selected {
+    background: #d87390; /* darker pink */
+    color: white;
+}
+
+QToolButton {
+    padding: 5px;
+    background: #f09bb3;
+    color: black;
+    border-radius: 7px;
+    font-size: 9pt;
+}
+
+QToolButton:pressed {
+    background-color: #d87390;
+    font-size: 9pt; 
+}
+
+QMenu {
+    padding: 5px;
+    selection-background-color: #d87390;
+    background-color: #f09bb3;
+    color: black;
+    icon-size: 16px;
+    font-family: Monospace;
+    font-size: 9pt;
+    border: 1px solid #b0788c;
+}
+
+QMenu:item:selected {
+    color: white;
+}
+
+QLabel {
+    background: none;
+    font-family: Monospace;
+    font-size: 9pt;
+}
+
+QDockWidget {
+    background-color: #f1b6c7;
+    selection-background-color: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QDockWidget:title {
+    position: relative;
+    text-align: center;
+}
+
+QTableWidget {
+    background: #f1b6c7;
+    color: white;
+    font-family: Monospace;
+    selection-background-color: #d87390;
+    font-size: 9pt;
+}
+
+QTableWidget:item {
+    padding:5px;
+    background-color: #f09bb3;
+}
+
+QTableWidget:item:selected {
+    background-color: #d87390;
+}
+
+QStatusBar {
+    background-color: rgba(0, 0, 0, 0);
+    selection-background-color: #f09bb3;
+    color: black; 
+}
+
+QGroupBox {
+    background: #f1b6c7;
+    color: black;
+    selection-background-color: #f09bb3;
+    border:none;
+}
+
+QGroupBox:disabled {
+    background-color: #000000; 
+}
+
+QPlainTextEdit {
+    background-color: #bf7288; /* darker pink */
+    selection-background-color: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QLineEdit {
+    background-color: white;
+    selection-background-color: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QComboBox {
+    background-color: #bf7288;
+    selection-background-color: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QSpinBox {
+    background-color: #bf7288;
+    selection-background-color: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QWebEngineView {
+    background-color: #bf7288;
+    selection-background-color: #f09bb3;
+    color: black;
+}
+
+QPushButton {
+    padding: 5px;
+    background-color: #d87390;
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: #f09bb3;
+}
+
+QCheckBox {
+    background: none;
+    color: black;
+    font-size: 9pt;
+}
+
+QCheckBox:indicator:checked {
+    background-color: #d87390;
+    border: 2px solid white;
+}
+
+QCheckBox:indicator:unchecked {
+    background-color: black;
+    border: 2px solid white;
+}
+
+QRadioButton {
+    background: none;
+    color: black;
+    font-size: 9pt;
+}
+
+QRadioButton::indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #d87390;
+    border: 2px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color: black;
+    border: 2px solid white;
+}
+
+QTreeWidget {
+    outline: 0;
+    background: #f1b6c7;
+    font-size: 9pt;
+}
+
+QTreeWidget::item {
+    padding: 5px;
+    background: #f09bb3;
+    border: 0.5px solid black;
+}
+
+QTreeWidget::item:selected {
+    background-color: #d87390;
+}
+
+QListWidget {
+    outline: 0;
+    background: #f1b6c7;
+    font-size: 9pt;
+}
+
+QListWidget::item {
+    background: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QListWidget::item:selected {
+    background-color: #d87390;
+}
+
+QTextBrowser {
+    padding: 5px;
+    background: #f09bb3;
+    color: black;
+    selection-background-color: #d87390;
+    font-size: 9pt;
+    background-image: url("/opt/uwuratel/removebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QTextEdit:enabled {
+    padding: 5px;
+    background: #f09bb3;
+    color: black;
+    selection-background-color: #d87390;
+    font-size: 9pt;
+ background-image: url("/opt/uwuratel/removebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+QTextEdit:disabled {
+    background: grey;
+    color: black;
+ background-image: url("/opt/uwuratel/removebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+QLabel#label_status {
+    background: none;
+    font-family: Monospace;
+    color: #FF33A0;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+QLabel#label_error {
+    background: none;
+    color: red;
+    font-size: 9pt;
+}
+
+QTreeWidget#treeWidget_lstree::item:has-children {
+    border-right: 10px solid #f09bb3;
+    background-color: #bf7288;
+}
+
+QTableWidget#tableWidget_pstree::item {
+    padding: 5px;
+    border-right: 1px solid #d87390;
+    border-left: 1px solid #d87390;
+}
+
+QTableWidget#tableWidget_lstree:item {
+    padding: 5px;
+    border-right: 1px solid #d87390;
+    border-left: 1px solid #d87390;
+}
+
+QLineEdit#lineEdit_cmd {
+    background-color: white;
+    selection-background-color: #f09bb3;
+    color: black;
+    font-size: 9pt;
+}
+
+QLineEdit#lineEdit_terminal_cwd,
+QLineEdit#lineEdit_terminal_sleep,
+QLineEdit#lineEdit_terminal_user,
+QLineEdit#lineEdit_terminal_socks,
+QLineEdit#lineEdit_terminal_rportfwd {
+    background-color: #5f3b4f; /* deep dark pink */
+    selection-background-color: #301f28;
+    color: #a8a8a8;
+    font-size: 9pt;
+}
+
+QTextEdit#textEdit_badger_terminal {
+    background: #5f3b4f;
+    color: white;
+ background-image: url("/opt/uwuratel/removebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
